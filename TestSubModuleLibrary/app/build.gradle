@@ -1,4 +1,5 @@
-apply plugin: 'com.android.application'
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 apply plugin: 'kotlin-android'
 
@@ -7,7 +8,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.sample.rony.testsubmodulelibrary"
+//        applicationId "com.sample.rony.testsubmodulelibrary"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
